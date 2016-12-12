@@ -1,0 +1,17 @@
+{
+  "name": "node-batch-follow",
+  "version": "1.0.0",
+  "description": "Follow a list of users on gitub",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "npm start",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.4.6",
+    "github": "^7.0.1",
+    "prompt": "^1.0.0"
+  }
+}
